@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>PORTFOLIO</title>
+</head>
+<body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                   <h2 class="logo">Shubham</h2>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm<span> Shubham</span> </h1>
+                    <p>Software Developer</p>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- about section -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./image/sc.png" class="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>"Hello! 👋 I'm a fresh graduate from a Full Stack Developer course, where I picked up skills in HTML, CSS, JavaScript, Node.js, and React. I'm enthusiastic about coding and aspire to become a software developer. Learning new things in programming brings me immense joy. Ready to dive into the world of software development and eager to grow!"</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onmouseover="opentab('skills')">Skills</p>
+                            <p class="tab-links" onmouseover="opentab('education')">Education</p>
+                            <p class="tab-links" onmouseover="opentab('projects')">Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                               <li><span>♦ Languages ♦</span><br>HTML , CSS , JAVASCRIPT</li>
+                               <li><span>♦ FrameWorks ♦</span><br>ReactJs, NodeJs, Mongo DB</li>
+                               <li><span>♦ Tools ♦</span><br>GitHub, VS Code, Canva, ChatGpt</li>
+                               <li><span>♦ Soft Skill ♦</span><br>TeamWork</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                               <li><span>♦ 2018 ♦</span><br>B.Com</li>
+                               <li><span>♦ 2019 ♦</span><br>O'LEVEL Certification</li>
+                               <li><span>♦ 2024 ♦</span><br>Full Stack Development</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                               <li><span>♦ Portfolio Website ♦</span><br>A Portfolio website to showcase my projects and skills</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profolio section -->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-titles">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./image/linkedin.jpg">
+                        <div class="layer">
+                            <h3>Linkedin Clone</h3>
+                            <p>This project is a clone of the myTunes web page, developed using HTML, CSS, and Bootstrap. The clone replicates the layout, design, and functionality of the myTunes interface, providing users with a familiar browsing experience for discovering and enjoying music.</p>
+                            <a href="https://linkedin-page-theta.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="./image/music.jpg"> 
+                        <div class="layer">
+                            <h3>MyTune Music</h3>
+                            <p>This project is a clone of the myTunes web page, developed using HTML, CSS, and Bootstrap. The clone replicates the layout, design, and functionality of the myTunes interface, providing users with a familiar browsing experience for discovering and enjoying music.</p>
+                            <a href="https://mytune-website.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="work">
+                        <img src="./image/clock.jpg"> 
+                        <div class="layer">
+                            <h3>Digital Clock</h3>
+                            <p>This project is a digital clock, developed using HTML, CSS, and JavaScript. It displays the current time in a sleek, responsive interface, updating in real-time. The clock accurately reflects the user's local time and provides a modern design, making it both functional and visually appealing.
+                            </p>
+                            <a href="https://digitalclock-bcy2.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- contact section -->
+
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i> 7007440762</p>
+                        <div class="social-icons">
+                            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <a href="./image/resume.docx" download class="btn btn2">Download C V</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 Shubham. Made with 💻.
+                </p>
+            </div>
+         </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablink of tablinks){
+tablink.classList.remove("active-link");
+}
+
+for(tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab")
+}
+ </script>
+
+ <script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+</body>
+</html>
